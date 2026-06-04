@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NUMBER=$1
-
+#name raju kodoori
 # -gt -> greater than
 # -lt -> less than
 # -eq -> equal
