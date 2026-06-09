@@ -3,7 +3,7 @@
 USERID= $(id -u)
 
 
-if (id -eq 0) then
+if ($USERID -eq 0) then
 
     echo "installing "
 else
