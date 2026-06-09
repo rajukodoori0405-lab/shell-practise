@@ -10,4 +10,7 @@ if [ $USERID -ne 0 ] ; then
 fi
 
   dnf install git -y
-  echo " git installed successfully"
+  git --version
+  dnf remove git -y
+  echo " git removed successfully"
+ 
