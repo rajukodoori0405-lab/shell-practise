@@ -6,6 +6,7 @@ USERID=$(id -u)
 if [ $USERID -ne 0 ] ; then
 
     echo " not installing "
+	exit 1
 
 fi
 
